@@ -25,7 +25,7 @@ function modelLoaded(){
 function draw(){
     image(video,0,0,600,500);
      song1="music.mp3";
-     song2="song2.mp3"
+     song2="song2.mp3";
      fill("#0000FF");
     stroke("#0000FF");
     if(scoreleftwrist > 0.2){
@@ -34,7 +34,7 @@ function draw(){
     song.song2.stop()
     if(song1 == false){
         song.play(song1);
-        document.getElementById("heading").innerHTML= "Song Played 1";
+        document.getElementById("songname").innerHTML= "Song Played 1";
 }
 }
 }
